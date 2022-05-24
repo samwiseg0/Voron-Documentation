@@ -16,6 +16,7 @@ BTT Smart Filament Sensor has advantages over other filament sensors as it can d
 * Filament tangles
 * Overcontraints of the filament path (Under-extrusion)
 * Under-extrusion
+* Lets you seamlessly change filament
 
 There are a few things you should do to ensure the sensor works effectively.
 
