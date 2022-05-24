@@ -21,7 +21,7 @@ BTT Smart Filament Sensor has advantages over other filament sensors as it can d
 There are a few things you should do to ensure the sensor works effectively.
 
 1. The sensor is plugged into an endstop port. Please refer to your MCU pinout to identify the pin you are using. 
-1. Set your endstop pin should be set as a pull-up (put a `^` before the pin).
+1. Set your endstop pin as a pull-up (put a `^` before the pin).
 1. Ensure that the reverse bowden is contiguous all the way from the toolhead to the sensor. Any open/unconstrained filament will cause it to false detect
 1. Sensorless homing/StallGuard is known to interfere with the sensor if the diag pin is set on the MCU where the filament sensor is connected.
 1. **(Optional)** Take it entirely apart and lubricate everything especially the little wheel that sits in front of the sensor. The grease that comes with the sensor is not the best and can cause the filament to slide on the bearings instead of rotating them which is needed to drive the sensing wheel.
